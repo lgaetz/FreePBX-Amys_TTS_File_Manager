@@ -1,0 +1,23 @@
+<module>
+    <rawname>amys_ttsfilemanager</rawname>
+    <name>Amy's TTS File Manager</name>
+    <publisher>Planet IDX</publisher>
+    <license>GPLv2+</license>
+    <type>setup</type>
+    <repo>unsupported</repo>
+    <category>Applications</category>
+	<version>0.5beta</version>
+    <description>
+        Easily create TTS sound files for your PBX system with Amy's TTS File Manager
+    </description>
+    <changelog>
+        *0.5beta* It Lives!
+    </changelog>
+    <depends>
+        <engine>asterisk 11</engine>
+        <module>core</module>
+    </depends>
+    <menuitems>
+        <amys_ttsfilemanager>Amy's TTS File Manager</amys_ttsfilemanager>
+    </menuitems>
+</module>
